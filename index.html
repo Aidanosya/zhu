@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zhuzhu</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js"></script>
+
+</head>
+<body>
+  
+<div class="container" id="container">
+    <div id="welcomeMessage">
+        <h1>Сәлем, Жұлдыз Миронқызы!</h1>
+        <img src="./5.jpg" alt="zhuzhu" width="200px" height="300px">
+        <p>Бір минут уақытыңызды бөле аласыз ба? бос болсаңыз...</p>
+        <button id="requestButton" onclick="showRequest()">мені бас...</button>
+    </div>
+    <div id="requestMessage" class="hidden">
+        <p>Келесі апта мен сертификат алуға дипломный жазуым керек еді және маған сенің демалыс күнің қажет болып тұр...</p>
+        <p>вторник күні өзіме демалыс екен, енді среда күнге керек болып тұр. Егер сен менің орныма среда күні шығып берсең, мен сенің орныңа воскресенье шығып берер едім.</p>
+        <img src="./ggr.jpg" alt="График" width="200px" height="300px">
+        <p>..егер ешқандай жоспарыңыз болмаса әрине</p>
+        <button id="acceptButton" onclick="acceptRequest()">келісемін</button>
+        <button id="rejectButton" onclick="showGift()">келіспеймін</button>
+    </div>
+    <div id="giftMessage" class="hidden">
+        <p>менің саған сыйлығым бар!</p>
+        <button id="giftButton" onclick="showGiftImage()">сыйлықты алу үшін мені бас</button>
+    </div>
+    <div id="sadMessage" class="hidden">
+        <p class="text">Ну ладно...</p>
+        <img src="./2222.jpg" alt="dog" width="200px" height="300px">
+    </div>
+</div>
+
+<script src="./script.js"></script>
+
+</body>
+</html>
